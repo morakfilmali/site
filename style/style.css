@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    font-family: "irancel";
     scroll-behavior: smooth;
     }
     body{
@@ -407,21 +407,18 @@ startColorstr='#6b6b6b', endColorstr='#000000',GradientType=0 );
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 40%;
     opacity: 1;
     
 }
-.Titbg{
-    width: 100%;  
-    height: 70%;
-      }
+
       .menu_1 a{
         font:11px Tahoma;
         direction:rtl;
         color:#FFF;
-        display:block;
+        display:flex;
         text-decoration:none;
         padding:12px;
-        font-size: 1em;
+        font-size: .8em;
     }
 }
