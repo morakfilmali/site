@@ -254,7 +254,7 @@
     .footer .sci li a img
     {
        
-      max-width: 40px;
+      max-width: 100px;
     }
 
 
@@ -351,6 +351,11 @@ startColorstr='#6b6b6b', endColorstr='#000000',GradientType=0 );
     float: left;
     width: 8%;
 }
+.text{
+    font-size: 1.8em;
+    font-family: yekan;
+
+}
     @media (max-width: 767px)
     {
         section
@@ -396,7 +401,7 @@ startColorstr='#6b6b6b', endColorstr='#000000',GradientType=0 );
         height: 320px;
     }
     .footer .sci li a img {
-        max-width: 30px;
+        max-width: 100px;
     }
         
 .menuhef{
