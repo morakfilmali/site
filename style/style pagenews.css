@@ -275,7 +275,12 @@
         font-size: 1.7em;
         color: rgb(255, 0, 0);
     }
-    
+    .titre2{
+        font-family: 'irancell';
+        text-align: center;
+        font-size:5em;
+        color: rgb(255, 0, 0);
+    }
 
 
 .imgphoto{
