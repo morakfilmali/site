@@ -105,6 +105,7 @@
     }
     .titletext
     {
+        font-family: 'irancell';
     font-weight: 600;
     color: rgb(255, 0, 0);
     font-size: 2em;
@@ -217,6 +218,7 @@
     }
     .destination .destinationlist .box .content h2
     {
+        font-family: 'yekan';
         color: #fff;
         font-weight: 500;
         line-height: 1.2em;
@@ -254,20 +256,7 @@
        
       max-width: 40px;
     }
-    .texteski
-    {
-      margin-top: 20px;
-      color: #fff;
-      font-size: 18px;
-      font-weight: 300;
-      color: #666;  
-      text-align: center;
-    }
-    .texteski a
-    {
-      color: #fff;  
-      text-decoration: none;
-    }
+
 
     .titre{
         text-align: center;
@@ -354,6 +343,14 @@ startColorstr='#6b6b6b', endColorstr='#000000',GradientType=0 );
 .menu_1 a:hover{
     color:rgb(255, 0, 0);
 }
+.logorigt{
+    float: right;
+    width: 8%;
+}
+.logoleft{
+    float: left;
+    width: 8%;
+}
     @media (max-width: 767px)
     {
         section
@@ -432,4 +429,20 @@ startColorstr='#6b6b6b', endColorstr='#000000',GradientType=0 );
     padding:12px;
     font-size: .8em;
 }
+.logorigt{
+    float: right;
+    width: 19%;
+}
+.logoleft{
+    float: left;
+    width: 19%;
+}
     } 
+    @font-face {
+        font-family: 'irancell';
+        src:  url('fonts/MTNIrancell-Bold.woff') format('woff');
+      }
+      @font-face {
+        font-family: 'yekan';
+        src:  url('fonts/Yekan\ Boom.woff') format('woff');
+      }

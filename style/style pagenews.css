@@ -111,6 +111,7 @@
     
     }
      .text{
+        font-family: 'yekan';
          color: rgb(255, 255, 255);
          font-size: 2em;
      }
@@ -269,31 +270,14 @@
     }
  
     .titre{
+        font-family: 'irancell';
         text-align: center;
-        color: rgb(255, 255, 255);
+        font-size: 1.7em;
+        color: rgb(255, 0, 0);
     }
     
-.mtext{
 
-    color: rgb(255, 0, 0);
-    text-decoration: none;
 
-}
-.mtext:hover{
-    color: rgb(38, 0, 255);
-    text-decoration: none;
-}
-.menuhef{
-    float: right;
-    width: 11%;
-    height: 25px;
-    background-color: rgb(0, 0, 0);
-}
-.ox{
-    width: 100%;
-    color: rgb(255, 255, 255);
-    
-}
 .imgphoto{
  width: 100%;
 }
@@ -356,6 +340,14 @@ startColorstr='#6b6b6b', endColorstr='#000000',GradientType=0 );
 }
 .menu_1 a:hover{
     color:rgb(255, 0, 0);
+}
+.logorigt{
+    float: right;
+    width: 8%;
+}
+.logoleft{
+    float: left;
+    width: 8%;
 }
     @media (max-width: 767px)
     {
@@ -427,6 +419,8 @@ startColorstr='#6b6b6b', endColorstr='#000000',GradientType=0 );
      
  }
  .text{
+     
+    font-family: 'yekan';
     color: rgb(255, 255, 255);
     font-size: 1.5em;
 }
@@ -439,4 +433,21 @@ startColorstr='#6b6b6b', endColorstr='#000000',GradientType=0 );
     padding:12px;
     font-size: .8em;
 }
+.logorigt{
+    float: right;
+    width: 19%;
+}
+.logoleft{
+    float: left;
+    width: 19%;
+}
     }
+    @font-face {
+        font-family: 'irancell';
+        src:  url('fonts/MTNIrancell-Bold.woff') format('woff');
+      }
+      @font-face {
+        font-family: 'yekan';
+        src:  url('fonts/Yekan\ Boom.woff') format('woff');
+      }
+      

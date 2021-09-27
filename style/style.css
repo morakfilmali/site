@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "irancel";
+    font-family: "";
     scroll-behavior: smooth;
     }
     body{
@@ -43,12 +43,15 @@
     }
     .banner .content h2
     {
+        font-family: 'yekan';
     color: #fff;
     font-size: 4em;
     }
     
     .banner .content p
     {
+        font-family: 'yekan';
+        font-family: "irancell";
     color: #fff;
     font-size: 1.2em;
     }
@@ -98,6 +101,7 @@
     }
     .titletext
     {
+        font-family: 'irancell';
     font-weight: 600;
     color: rgb(255, 0, 0);
     font-size: 2em;
@@ -105,6 +109,7 @@
     
     }
      .text{
+        font-family: 'yekan';
          color: rgb(255, 255, 255);
          font-size: 1.5em;
      }
@@ -210,6 +215,7 @@
     }
     .destination .destinationlist .box .content h2
     {
+        font-family: 'yekan';
         color: #fff;
         font-weight: 500;
         line-height: 1.2em;
@@ -217,6 +223,7 @@
     }
     .destination .destinationlist .box .content h2 span
     {
+        font-family: 'yekan';
        font-size: 0.8em;
         font-weight: 300;
         opacity: .5;
@@ -239,6 +246,7 @@
     }
     .footer .sci li a
     {
+        font-family: 'yekan';
      text-decoration: none;
       margin: 0 20px;  
     }
@@ -249,6 +257,7 @@
     }
     .texteski
     {
+        font-family: 'irancell';
       margin-top: 20px;
       color: #fff;
       font-size: 18px;
@@ -258,31 +267,18 @@
     }
     .texteski a
     {
+        font-family: 'irancell';
       color: #fff;  
       text-decoration: none;
     }
  
     .titre{
+        font-family: 'irancell';
         text-align: center;
         color: rgb(255, 255, 255);
     }
     
-.mtext{
 
-    color: rgb(255, 0, 0);
-    text-decoration: none;
-    
-}
-.mtext:hover{
-    color: rgb(38, 0, 255);
-    text-decoration: none;
-}
-.menuhef{
-    float: right;
-    width: 11%;
-    height: 25px;
-    background-color: rgb(0, 0, 0);
-}
 menu_1 {
     list-style:none;
     direction:rtl;
@@ -343,8 +339,21 @@ startColorstr='#6b6b6b', endColorstr='#000000',GradientType=0 );
 .menu_1 a:hover{
     color:rgb(255, 0, 0);
 }
-
-
+.morakfilm{
+    font-family: "irancell";
+    color: rgb(255, 0, 0);
+    font-size: 2em;
+    margin-bottom: 10px;
+font-size: 4em;
+}
+.logorigt{
+    float: right;
+    width: 8%;
+}
+.logoleft{
+    float: left;
+    width: 8%;
+}
 @media (max-width: 767px)
 {
     section
@@ -375,6 +384,7 @@ startColorstr='#6b6b6b', endColorstr='#000000',GradientType=0 );
     }
     .btn
     {
+        
         margin-bottom: 30px;
     }
     .destination .destinationlist .box
@@ -421,4 +431,20 @@ startColorstr='#6b6b6b', endColorstr='#000000',GradientType=0 );
         padding:12px;
         font-size: .8em;
     }
+    .logorigt{
+        float: right;
+        width: 19%;
+    }
+    .logoleft{
+        float: left;
+        width: 19%;
+    }
 }
+@font-face {
+    font-family: 'irancell';
+    src:  url('fonts/MTNIrancell-Bold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'yekan';
+    src:  url('fonts/Yekan\ Boom.woff') format('woff');
+  }
