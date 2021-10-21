@@ -616,6 +616,11 @@ Primary style
     visibility: visible;
     opacity: 1;
   }
+  .my-center{
+    text-align:center;
+   }
+   
+  
   @media only screen and (min-width: 768px) {
     .cd-primary-nav li {
       margin: 2em 0;
@@ -710,11 +715,13 @@ Primary style
     padding-top: 4.6em;
   }
   .cd-content h1 {
+   
     text-align: center;
     font-size: 20px;
     font-size: 1.25rem;
   }
   .cd-content p {
+  
     line-height: 1.5;
     color: #000000;
   }

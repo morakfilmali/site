@@ -716,6 +716,22 @@ Primary style
     line-height: 1.5;
     color: #000000;
   }
+
+  .bistscript-bg{background:rgb(117, 117, 117);width:auto;direction:rtl;height:auto;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;overflow:hidden;padding-bottom:60px;padding-right:5px;}
+.bistscript-bg .tp{color:#fff;background:#3498db;padding:2px 16px 2px 16px;border-radius:2px;float:right;margin:5px;font-size:1.5em;font-family: yekan;}
+
+.bistscript-bg .btm{float:right;background:#ddd;padding:5px 20px 5px 20px;margin:3px;color:#666;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;box-shadow:0px 0px 12px rgb(0, 0, 0);-moz-box-shadow:0px 0px 10px rgb(0, 0, 0);-webkit-box-shadow:0px 0px 10px rgb(0, 0, 0);transition:all linear 0.2s;-moz-transition:all linear 0.2s;-o-transition:all linear 0.2s;-webkit-transition:all linear 0.2s;font-family: yekan;}
+.bistscript-bg .link a{text-decoration:none;color:#666;font-family: yekan;}
+.bistscript-bg .link a:hover{color:#fff;font-family: yekan;}
+.bistscript-bg .link:hover{background:#e74c3c;color:#fff;font-family: yekan;}
+.bistscript-bg .size:hover{background:#2ecc71;color:#fff;font-family: yekan;}
+.bistscript-bg .pass:hover{background:#3498db;color:#fff;font-family: yekan;}
+.bistscript-bg .format:hover{background:#db34b1;color:#fff;font-family: yekan;}
+.bistscript-bg .clear{clear:both;}
+
+.video{
+  width: 80%;
+}
   @media only screen and (min-width: 768px) {
     .cd-content .cd-intro {
       height: 250px;
