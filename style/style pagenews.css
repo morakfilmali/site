@@ -749,7 +749,7 @@ Primary style
       line-height: 1.8;
     }
   }
-    @media (max-width: 767px)
+    @media (max-width: 900px)
     {
         section
          {
