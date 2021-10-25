@@ -282,7 +282,9 @@
         color: rgb(255, 0, 0);
     }
 
-
+.imgphoto{
+  width: 30%;
+}
 .imgphoto{
  width: 100%;
 }
@@ -794,7 +796,9 @@ Primary style
     .footer .sci li a img {
         max-width: 30px;
     }
-        
+      .imgphoto2{
+        width: 100%;
+      }  
 .menuhef{
     float: right;
      width: 50%;
