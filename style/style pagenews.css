@@ -281,7 +281,12 @@
         font-size:5em;
         color: rgb(255, 0, 0);
     }
-
+.textred{
+  font-family: 'yekan';
+  color: rgb(255, 0, 0);
+  font-size: 2em;
+  
+}
 .imgphoto{
   width: 30%;
 }
@@ -751,6 +756,9 @@ Primary style
   }
     @media (max-width: 900px)
     {
+      .video{
+        width: 100%;
+      }
         section
          {
             padding: 40px;
@@ -825,6 +833,9 @@ Primary style
     font-family: 'yekan';
     color: rgb(255, 255, 255);
     font-size: 1.5em;
+}
+.textred{
+  font-size: 1.5em;
 }
 .menu_1 a{
     font:11px Tahoma;
